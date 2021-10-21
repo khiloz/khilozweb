@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact us page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    
+<style>
+  *{
+margin: 0;
+padding: 0;
+font-family: 'poppins' ,sans-serif;
+box-sizing: border-box;
+outline: none;
+}
+section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('Website+Background+Image.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+body{
+display: flex;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+}
+
+.container{
+width: 360px;
+background: white;
+box-shadow: 0 0 8px gray(250,250,250,0.6);
+opacity: 0.6;
+}
+container form{
+width: 100%;
+text-align: center;
+padding: 25px 20px;
+}
+
+form h1{
+padding: 20px 0;
+}
+form .id{
+position: relative;
+}
+.id i{
+position:absolute;
+font-size: 20px;
+top: 50%
+right(20px);
+transform: translateY(-50%);
+}
+
+form input{
+width: 100%;
+height: 50px;
+margin: 4px 0;
+border: 1px solid gray;
+border-radius: 3px;
+background: white;
+padding: 0 15px;
+padding-right:45px;
+font-size: 20px;
+}
+
+form textarea{
+padding: 5px 15px;
+border: 1px solid gray;
+border-radius: 3px;
+background:white;
+font-size: 20px;
+width: 100%
+
+}
+form button{
+margin-top: 5px;
+border:none;
+background:none;
+color:red;
+padding: 10px 0;
+width: 100%;
+font-weight: 800;
+cursor: pointer;
+border-radius:3px;
+}
+
+form button:hover{
+    transform: scale(1.08);
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+</style>
+</head>
+    <body>
+        <section></section>
+        <div class="container">
+        <form>
+        <h1>Type up  your feedback</h1>
+        <div class="id">
+        <input type="text" placeholder="Full name">
+        <i class="far fa-user"></i>
+        </div>
+        <div class="id">
+        <input type="email" placeholder="Email address">
+        <i class="far fa-envelope"></i>
+        </div>
+        <textarea cols="15" rows="5" placeholder="Enter your opinions here.."></textarea>
+        <button>Send</button>
+        </form>
+        
+        </div>
+        </body>
+        </html>
